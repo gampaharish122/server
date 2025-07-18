@@ -1,6 +1,6 @@
-pip install uv;
-pip install fastapi;
-pip install tavily;
-pip install dotenv;
-pip install typing;
+pip install uv:
+pip install fastapi:
+pip install tavily:
+pip install dotenv:
+pip install typing:
 pip install os
