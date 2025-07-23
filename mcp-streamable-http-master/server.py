@@ -23,7 +23,7 @@ ENDPOINTS = {
 }
 
 # Initialize MCP server with stateless configuration
-mcp = FastMCP("web-search", host="0.0.0.0", port=PORT)
+mcp = FastMCP("web-search",stateless_http=True, host="0.0.0.0", port=PORT)
 
 def validate_date_format(date_str: str) -> str:
     """Validate DD-MM-YYYY format - pure function, no state."""
